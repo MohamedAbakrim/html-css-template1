@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-size:1.125rem;
+    font-family:'Hanken Grotesk', sans-serif;
+}
+
+@media only screen and (max-width: 375px) {
+    .parent {
+      background-color: white;
+    }
+    .parent .card{
+        height:360px;
+        padding:55px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+        background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        color:white;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .parent .card h5{
+        color:rgb(212, 202,255);
+        font-weight:700;
+    }
+    .parent .card .circle{
+        padding:25px 40px;
+        border-radius:50%;
+        background:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        width:fit-content;
+    }
+    .parent .card .circle h1{
+        text-align:center;
+        font-weight:800;
+    }
+    .parent .card .circle span{
+        text-align:center;
+        font-size:.8rem;
+        color:rgb(132, 118,255);
+        font-weight:700;
+    }
+    .parent .card p:first-of-type{
+        font-weight:700;
+    }
+    .parent .card p:last-of-type{
+        font-weight:500;
+        color:rgb(212, 202,255);
+        font-size:.8rem;
+        text-align:center;
+    }
+    .parent .description{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        height:460px;
+        padding:30px;
+    }
+    .parent .description h4{
+        color:rgb(48,58,70);
+    }
+    .parent .description #information1{
+        font-weight:700;
+        padding:20px; 
+        border-radius:10px;
+        display:flex;
+        justify-content:space-between;
+        background-color:rgb(255, 246, 245)
+    }
+    .parent .description #information1 div{
+        display:flex;
+        color:hsl(0, 100%, 67%);
+    }
+    .parent .description #information1 div img{
+        margin-right:15px;
+    }
+    .parent .description #information1 p span{
+        color:rgb(218,213,219)
+    }
+    .parent .description #information2{
+        font-weight:700;
+        padding:20px; 
+        border-radius:10px;
+        display:flex;
+        justify-content:space-between;
+        background-color:rgb(255, 251, 242)
+    }
+    .parent .description #information2 div{
+        display:flex;
+        color:hsl(39, 100%, 56%);
+    }
+    .parent .description #information2 div img{
+        margin-right:15px;
+    }
+    .parent .description #information2 p span{
+        color:rgb(218,213,219)
+    }
+    .parent .description #information3{
+        font-weight:700;
+        padding:20px; 
+        border-radius:10px;
+        display:flex;
+        justify-content:space-between;
+        background-color:rgb(242, 251, 252)
+    }
+    .parent .description #information3 div{
+        display:flex;
+        color:hsl(166, 100%, 37%);
+    }
+    .parent .description #information3 div img{
+        margin-right:15px;
+    }
+    .parent .description #information3 p span{
+        color:rgb(218,213,219)
+    }
+    .parent .description #information4{
+        font-weight:700;
+        padding:20px; 
+        border-radius:10px;
+        display:flex;
+        justify-content:space-between;
+        background-color:rgb(243, 243, 253)
+    }
+    .parent .description #information4 div{
+        display:flex;
+        color:hsl(234, 85%, 45%);
+    }
+    .parent .description #information4 div img{
+        margin-right:15px;
+    }
+    .parent .description #information4 p span{
+        color:rgb(218,213,219)
+    }
+    .parent .description button{
+        border-radius:25px;
+        border:0;
+        color:white;
+        font-weight:700;
+        background-color:rgb(48,59,89);
+        padding:20px 0;
+    }
+  }
